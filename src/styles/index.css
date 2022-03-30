@@ -10,3 +10,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.logo{
+    font-size: 40px;
+    color: rgb(221, 174, 18);
+ 
+}
+.bottom{
+    display: flex;
+    background-color: rgb(92, 91, 91);
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+.contenido{
+    display: flex;
+    text-align: center;
+    color: white;
+    width: 120px;
+    height: 35px;
+
+}
