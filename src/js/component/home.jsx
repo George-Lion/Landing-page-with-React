@@ -1,13 +1,17 @@
 import React from "react";
 import Navbar from "./navbar";
+import Cards from "./card";
+import Footer from "./footer";
 
 const Home = () => {
-	let navBackground = "bg-dark";
-	let navNa = "navbar-dark";
-
 	return (
-		<div>
-			<Navbar bgNav={navBackground} nav={navNa} />
+		<div className="row">
+			<Navbar />
+			<Cards />
+			<Cards />
+			<Cards />
+			<Cards />
+			<Footer />
 		</div>
 	);
 };
