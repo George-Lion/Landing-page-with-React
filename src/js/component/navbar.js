@@ -3,11 +3,15 @@ import PropTypes from "prop-types";
 
 const Navbar = (props) => {
 	return (
-		<nav className={"navbar navbar-expand-lg navbar-dark bg-dark"}>
-			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
+		<nav className={"navbar navbar-expand-lg navbar-dark bg-dark  "}>
+			<div className="container">
+				<a
+					className="navbar-brand d-flex justify-content-center m-4 "
+					href="#">
 					<i class="logo fas fa-eye"></i>
+					<h3>SECURFIX</h3>
 				</a>
+
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -21,7 +25,7 @@ const Navbar = (props) => {
 				<div
 					className="collapse navbar-collapse"
 					id="navbarSupportedContent">
-					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
+					<ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
 						<li className="nav-item">
 							<a
 								className="nav-link active"
@@ -46,7 +50,7 @@ const Navbar = (props) => {
 								Dropdown
 							</a>
 							<ul
-								className="dropdown-menu"
+								className="dropdown-menu "
 								aria-labelledby="navbarDropdown">
 								<li>
 									<a className="dropdown-item" href="#">
@@ -67,9 +71,6 @@ const Navbar = (props) => {
 									</a>
 								</li>
 							</ul>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link disabled">Disabled</a>
 						</li>
 					</ul>
 					<form className="d-flex">

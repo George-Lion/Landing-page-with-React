@@ -9,11 +9,12 @@ const Home = () => {
 	return (
 		<div className="row">
 			<Navbar />
-      <Jumbotron />
-			<Cards />
-			<Cards />
-			<Cards />
-			<Cards />
+			<Jumbotron />
+			<div className="d-flex justify-content-center">
+				<Cards />
+				<Cards />
+				<Cards />
+			</div>
 			<Footer />
 		</div>
 	);

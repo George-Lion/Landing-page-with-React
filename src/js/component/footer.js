@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<div className="bottom">
 			<div className="contenido">
-				<p>copyright</p>
+				<p>copyright © Securfix 2022</p>
 			</div>
 		</div>
 	);
