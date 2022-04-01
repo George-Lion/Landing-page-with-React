@@ -1,11 +1,11 @@
 import React from "react";
-
 import Navbar from "./navbar";
 import Jumbotron from "./jumbotron";
 import Cards from "./card";
 import Footer from "./footer";
 
 const Home = () => {
+
 	let button1 = "More info";
 	let button2 = "Find out more";
 	let button3 = "Packs";
@@ -57,6 +57,9 @@ const Home = () => {
 			<Footer />
 		</div>
 	);
+
+	return <div></div>;
+
 };
 
 export default Home;
