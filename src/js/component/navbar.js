@@ -6,7 +6,7 @@ const Navbar = (props) => {
 		<nav className={"navbar navbar-expand-lg navbar-dark bg-dark  "}>
 			<div className="container">
 				<a
-					className="navbar-brand d-flex justify-content-center m-4 "
+					className="navbar-brand d-flex justify-content-center m-2 "
 					href="#">
 					<i class="logo fas fa-eye"></i>
 					<h3>SECURFIX</h3>

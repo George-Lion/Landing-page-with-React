@@ -1,21 +1,14 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Cards = () => {
+const Cards = (props) => {
 	return (
-		<div className="col-3 m-3">
-			<div className="card shadow-sm">
-				<svg
-					className="bd-placeholder-img card-img-top"
-					width="100%"
-					height="225"
-					xmlns="http://www.w3.org/2000/svg"
-					role="img"
-					aria-label="Placeholder: Thumbnail"
-					preserveAspectRatio="xMidYMid slice"
-					focusable="false">
-					<title>Placeholder</title>
-					<rect width="100%" height="100%" fill="#55595c"></rect>
-				</svg>
+		<div className="col-sm-2 m-2">
+			<div className="card">
+				{props.img1}
+				{props.img2}
+				{props.img3}
+				{props.img4}
 
 				<div className="card-body">
 					<p className="card-text">
@@ -26,13 +19,27 @@ const Cards = () => {
 
 					<div class="d-flex justify-content-center">
 						<button type="button" class=" btn btn-warning ">
-							Find out more!
+							{props.btn1}
+							{props.btn2}
+							{props.btn3}
+							{props.btn4}
 						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	);
+};
+
+Cards.propTypes = {
+	btn1: PropTypes.string,
+	btn2: PropTypes.string,
+	btn3: PropTypes.string,
+	btn4: PropTypes.string,
+	img1: PropTypes.img,
+	img2: PropTypes.img,
+	img3: PropTypes.img,
+	img4: PropTypes.img,
 };
 
 export default Cards;
