@@ -17,8 +17,8 @@ const Cards = (props) => {
 						little bit longer.
 					</p>
 
-					<div class="d-flex justify-content-center">
-						<button type="button" class=" btn btn-warning ">
+					<div className="d-flex justify-content-center">
+						<button type="button" className=" btn btn-warning ">
 							{props.btn1}
 							{props.btn2}
 							{props.btn3}
@@ -33,13 +33,7 @@ const Cards = (props) => {
 
 Cards.propTypes = {
 	btn1: PropTypes.string,
-	btn2: PropTypes.string,
-	btn3: PropTypes.string,
-	btn4: PropTypes.string,
-	img1: PropTypes.img,
-	img2: PropTypes.img,
-	img3: PropTypes.img,
-	img4: PropTypes.img,
+	img1: PropTypes.object,
 };
 
 export default Cards;

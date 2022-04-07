@@ -8,7 +8,7 @@ const Navbar = (props) => {
 				<a
 					className="navbar-brand d-flex justify-content-center m-2 "
 					href="#">
-					<i class="logo fas fa-eye"></i>
+					<i className="logo fas fa-eye"></i>
 					<h3>SECURFIX</h3>
 				</a>
 

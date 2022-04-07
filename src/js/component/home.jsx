@@ -5,7 +5,6 @@ import Cards from "./card";
 import Footer from "./footer";
 
 const Home = () => {
-
 	let button1 = "More info";
 	let button2 = "Find out more";
 	let button3 = "Packs";
@@ -59,7 +58,6 @@ const Home = () => {
 	);
 
 	return <div></div>;
-
 };
 
 export default Home;
